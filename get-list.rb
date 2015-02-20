@@ -21,6 +21,6 @@ list_members.each_with_index do |member, index|
   list_members_array << member.id
 end
 
-File.open("lists/us-olympics-summer.json","w") do |f|
+File.open("lists/championstour.json","w") do |f|
   f.write(list_members_array.to_json)
 end
