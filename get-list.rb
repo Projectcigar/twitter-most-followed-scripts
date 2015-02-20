@@ -13,7 +13,7 @@ client = Twitter::REST::Client.new do |config|
 end
 
 
-list_members = client.list_members('https://twitter.com/usolympic/london2012')
+list_members = client.list_members('https://twitter.com/PGATOUR/lists/championstour')
 
 list_members_array = []
 
